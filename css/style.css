@@ -104,7 +104,7 @@ nav .navigation ul li a:hover
 {
 	background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5,4,46,0.7)), url("../img/college/cse-top-view.jpg");
 	width: 100%;
-	height: 100vh;
+	height: 70vh;
 	background-size: cover;
 	background-position: center center;
 	display: flex;
@@ -177,13 +177,22 @@ nav .navigation ul li a:hover
 #features
 {
 	padding: 5vw 8vw 0 8vw;
+}
+
+#features .mission
+{
+	margin-left: 20px;
+}
+
+#features .title
+{
 	text-align: center;
 }
 
 #features .fea-base
 {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	/* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
 	grid-gap: 1rem;
 	margin-top: 50px;
 }
@@ -216,7 +225,18 @@ nav .navigation ul li a:hover
 	font-weight: 400;
 	color: rgb(70, 70, 87);
 }
+
+
 /*------------- Features section styling end -------------*/
+
+/*------------- Timetable section styling start -------------*/
+#features .timetable
+{
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}
+/*------------- Timetable section styling end -------------*/
 
 
 /*------------- Courses section styling start ------------*/
@@ -550,7 +570,7 @@ footer .copyright .pro-links i:hover
 
 	nav img
 	{
-		width: 130px;
+		width: 230px;
 	}
 	
 
@@ -600,9 +620,27 @@ footer .copyright .pro-links i:hover
 		color: #fff;
 	}
 
+	/*------------- timetable section styling start -------------*/
+	.timetable img
+	{
+	width: 300px;
+	height: fit-content;
+	}
+	/*------------- timetable section styling end -------------*/
+
 	#home
 	{
 		padding: 0px;
+	}
+
+	#home h1
+	{
+	font-size: 30px;
+	}
+
+	#home h2
+	{
+	font-size: 24px;
 	}
 
 	#home p
@@ -610,10 +648,10 @@ footer .copyright .pro-links i:hover
 		width: 90%;
 	}
 
-	#features
+	/* #features
 	{
 		padding: 8vw 4vw 0 4vw;
-	}
+	} */
 
 	#course
 	{
